@@ -8,7 +8,7 @@ services:
       - "8000:8000"
 
     environment:
-      - API_KEY=demo_key
+      - API_KEY=demo-key
       - JWT_SECRET_KEY=secret
       - REDIS_URL=redis://redis:6379
 
